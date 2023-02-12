@@ -157,7 +157,7 @@
       "url": "d4shm1r.github.io.styles.css"
     },
     {
-      "hash": "sha256-VYKsgDQqt2gRj2YwYJRe5hS9gmkbfWOA7NCjnXXY9h4=",
+      "hash": "sha256-1pooqXOWHs8zs\/UADTK1Zo0azklif6uCdkC7OepfQWk=",
       "url": "404.html"
     },
     {
@@ -221,7 +221,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-x\/Yy3YP30wISxS93Q3EI0UzBB3XJvvEYibWMIHsC2Z0=",
+      "hash": "sha256-428Aze0udXz9DyfEu69EogIPXl0qpEzXxiuVPKn+OTE=",
       "url": "index.html"
     },
     {
@@ -233,5 +233,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "FkTSffdL"
+  "version": "Qnxh\/aFI"
 };
