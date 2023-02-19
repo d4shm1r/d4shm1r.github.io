@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "d4shm1r.github.io.dll": "sha256-cCCEtm3m+pLNYESDu4desPQ7QSAYBBIzDwWcSegIkYc=",
+      "d4shm1r.github.io.dll": "sha256-XBIg6EdEKr3340Jym9C82rSL+5IeFz7+n3v+rhKGbtc=",
       "Microsoft.AspNetCore.Components.dll": "sha256-66EmQVcdDfpMaaHDkk6Y1bX\/N5F33DLK9yJB9eiNmKM=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-ITY9jR0xQAi62\/J+AwHwvd1cxeNWcmoOcAnkYqaH6HA=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-jj0gEWGz0IP5DtImmDS2JCnL7nDJvw39GXaOgt9q2BU=",
@@ -23,7 +23,7 @@
       "Microsoft.JSInterop.dll": "sha256-iSrG4aIfEw\/shiDFTk82\/yE+3T0mcwYqbjHC7vTJBYc=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-bn\/jJGkSeaQbmqAl6uUM0y1joLrVEzldOc3y5mscYMk=",
       "System.Collections.Concurrent.dll": "sha256-p\/W+WSIkL9jzyEasd03baj2LYf3Kyz9kwWgFTHUm\/Ss=",
-      "System.Collections.dll": "sha256-Dr\/xQMK+1VDuOEur4pePjCX7RGN+pjOOqE8IMEndiLY=",
+      "System.Collections.dll": "sha256-AyctchIvLBcUqah+uDhmIT8pX4H2Th6fqd87FE4i4ww=",
       "System.ComponentModel.dll": "sha256-i8l1LCCL8JFSIBljON1cA2eYNziHWE21TXOhsLVQa+Y=",
       "System.Linq.dll": "sha256-waeNUqVloRgeBajB+rbwHe6iJwRTvmoPTzYhltCisek=",
       "System.Memory.dll": "sha256-gDaKbsx6vP0iZXZw2UKct1OanzfmCr3BInmcHEEbdtQ=",
@@ -32,7 +32,7 @@
       "System.Net.Primitives.dll": "sha256-ajFzrovIcALXAxYU2LKbT31dShjCOcmkdrHJDn3Ibfo=",
       "System.Private.CoreLib.dll": "sha256-HsyP\/wX9pxvAmhjcOruZl10xA2Jksbnsl10heUgmU+0=",
       "System.Private.Uri.dll": "sha256-optr\/BWWhT5ZahDA3AZG6HOmSpOms3u\/rMEM+WdVjDU=",
-      "System.Runtime.dll": "sha256-6CIDCzQ42FlMxfZ4hiOjqtLjudjomWavCgNvPCBT\/os=",
+      "System.Runtime.dll": "sha256-p9BAhXOxef3qoJXvij34QA+xXIvOUyg8g8eT59f0ZpI=",
       "System.Runtime.InteropServices.JavaScript.dll": "sha256-IhmhXzzO60OoH+wLFM5KuYihvi5jEDXvIiOZzV\/5i4o=",
       "System.Text.Encodings.Web.dll": "sha256-hnmkcWS1u4akDjNnEVBY3N9HGT+VmFajs8yg5AdB2mo=",
       "System.Text.Json.dll": "sha256-e2PlYnbE9oHb01tI7lFl0ATSf9y3OK9oUNzLj4IVH4M="
