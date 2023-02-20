@@ -4,13 +4,27 @@
 
 <h1>Articles</h1>
 
-<ul>
+<div class="row">
     @foreach (var articleName in articleNames)
     {
-        <li><a href="/articles/@articleName">@articleName</a></li>
+        <div class="col-sm-3">
+            <a href="/articles/@articleName" class="card mb-3">
+                <span class="oi oi-document" aria-hidden="true"></span>
+                <div class="card-body">
+                    <h5 class="card-title">@articleName</h5>
+                    <p class="card-text">Testing the paragraph with some text</p>
+                </div>
+            </a>
+        </div>
+
+        @if ((articleNames.IndexOf(articleName) + 1) % 4 == 0)
+        {
+            </div>
+            <div class="row"></div>
+        }
     }
-</ul>
+</div>
 
 @code {
-    private List<string> articleNames = new List<string> { "article1", "article2", "article3" };
+    private List<string> articleNames = new List<string> { "article1", "article2", "article3", "article4", "article5", "article6" };
 }
