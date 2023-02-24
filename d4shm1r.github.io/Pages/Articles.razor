@@ -9,7 +9,7 @@
     {
         <div class="col-sm-3">
             <a href="/articles/@articleName" class="card mb-3">
-                <span class="oi oi-document" aria-hidden="true"></span>
+                <span class="oi oi-document" aria-hidden="true" style="font-size: 3em; display: block; margin: auto; padding-top: 0.5em"></span>
                 <div class="card-body">
                     <h5 class="card-title">@articleName</h5>
                     <p class="card-text">Testing the paragraph with some text</p>
@@ -20,7 +20,6 @@
         @if ((articleNames.IndexOf(articleName) + 1) % 4 == 0)
         {
             <br />
-            <div class="row"></div>
         }
     }
 </div>
