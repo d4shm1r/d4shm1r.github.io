@@ -2,5 +2,25 @@
 
 <PageTitle>Projects</PageTitle>
 
-
 <h1>Projects</h1>
+
+
+<div class="row">
+    @foreach (var articleName in articleNames)
+    {
+        <div class="col-sm-3">
+            <a href="/articles/@articleName" class="card mb-3">
+                <span class="oi oi-document" aria-hidden="true" style="font-size: 3em; display: block; margin: auto; padding-top: 0.5em"></span>
+                <div class="card-body">
+                    <h5 class="card-title">@articleName</h5>
+                    <p class="card-text">Testing the paragraph with some text</p>
+                </div>
+            </a>
+        </div>
+        <br />
+    }
+</div>
+
+@code {
+    private List<string> articleNames = new List<string> { "project1", "project2", "project3", "project4", "project5", "project6" };
+}
