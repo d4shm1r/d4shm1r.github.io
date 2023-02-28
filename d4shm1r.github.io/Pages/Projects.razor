@@ -5,22 +5,20 @@
 <h1>Projects</h1>
 
 
-<div class="row">
-    @foreach (var projectName in projectNames)
-    {
+@foreach (var projectName in projectNames)
+{
+    <div class="card mb-3">
         <div class="col-sm-3">
-            <div class="card mb-3">
-                <a href="/projects/@projectName" class="stretched-link">
-                    <span class="oi oi-document" aria-hidden="true" style="font-size: 3em; margin: auto; padding-top: 0.5em"></span>
-                    <div class="card-body">
-                        <h5 class="card-title">@projectName</h5>
-                        <p class="card-text">Testing the paragraph with some text</p>
-                    </div>
-                </a>
-            </div>
+            <a href="/projects/@projectName" class="stretched-link">
+                <span class="oi oi-document" aria-hidden="true" style="font-size: 3em; margin: auto; padding-top: 0.5em"></span>
+                <div class="card-body">
+                    <h5 class="card-title">@projectName</h5>
+                    <p class="card-text">Testing the paragraph with some text</p>
+                </div>
+            </a>
         </div>
-    }
-</div>
+    </div>
+}
 
 @code {
     private List<string> projectNames = new List<string> { "project1", "project2", "project3", "project4", "project5", "project6" };
