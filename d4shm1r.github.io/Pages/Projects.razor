@@ -4,15 +4,22 @@
 
 <h1>Projects</h1>
 
-
 @foreach (var projectName in projectNames)
 {
-    <div class="card mb-3" style="width: 100%">
-        <a href="/projects/@projectName" class="stretched-link d-flex justify-content-center align-items-center" style="height: 100%; display: flex; justify-content: center;">
-            <span class="oi oi-document" aria-hidden="true" style="font-size: 3em;"></span>
-            <div class="card-body text-center">
-                <h5 class="card-title">@projectName</h5>
-                <p class="card-text">Testing the paragraph with some text</p>
+    <div class="card mb-3">
+        <a href="/projects/@projectName">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <div class="icon-span d-flex align-items-center justify-content-center" style="height: 100%;">
+                        <span class="oi oi-document icon" style="font-size: 3em;"></span>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">@projectName</h5>
+                        <p class="card-text">Testing the paragraph with some text</p>
+                    </div>
+                </div>
             </div>
         </a>
     </div>
